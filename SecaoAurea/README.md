@@ -19,3 +19,5 @@
 <p> O número de ouro pode ser definido como:  </p>
 
 <p> Φ = 1+sqrt(5)/2 = 1,618 </p>
+
+<p> Para execução do método, o arquivo princia é codeaurea.m e a função a ser utilziada deve estar em f.m .

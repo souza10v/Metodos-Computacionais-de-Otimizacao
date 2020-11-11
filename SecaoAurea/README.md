@@ -9,4 +9,4 @@
   <li>o método é confiável e facilmente implementado para problemas mal comportados.</li>
 </ol>
 
-![alt text](https://github.com/souza10v/Exercicios-em-C/blob/main/activities1/images/1.jpg?raw=true)
+![alt text](https://github.com/souza10v/Metodos-Computacionais-de-Otimizacao/blob/main/SecaoAurea/images/01.jpg?raw=true)

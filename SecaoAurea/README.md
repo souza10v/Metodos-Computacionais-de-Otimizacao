@@ -1,5 +1,4 @@
-<html>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <h1> Método da Seção Áurea (MSA) </h1>
 
@@ -14,8 +13,6 @@
 
 ![alt text](https://github.com/souza10v/Metodos-Computacionais-de-Otimizacao/blob/main/SecaoAurea/images/01.jpg?raw=true)
 
-<p> O termo "Seção Áurea" relaciona-se com o termo razão áurea, também conhecida como proporção áurea, numero de ouro, número divino ou Phi(Φ). É uma constante real algébrica irracional, verifica em muitos elementos da natureza como, conchas, plantas, insertos, seres-humanos e etc. O número de ouro é: </p>
+<p> O termo "Seção Áurea" relaciona-se com o termo razão áurea, também conhecida como proporção áurea, numero de ouro, número divino ou Phi(Φ). É uma constante real algébrica irracional, verifica em muitos elementos da natureza como, conchas, plantas, insertos, seres-humanos e etc. O número de ouro é:  </p>
 
-$$
-   f(x,y) = \sin(x+y)
-$$
+<p> Φ = 1+sqrt(5)/2 = 1,618

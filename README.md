@@ -3,4 +3,10 @@
 <ul>
   <li> Método da Seção Áurea; </li>
   <li> Método de Fibonacci;</li>
-</ul>
+  <li> Método Busca Aleatória; </li>
+  <li> Método de Powell; </li>
+  <li> Método Politopo; </li>
+</ul
+  
+  
+  

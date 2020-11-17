@@ -1,26 +1,26 @@
-% -------------------------Método de Fibonacci-----------------------------
-% UNIVERSIDADE FEDERAL DE GOIÁS
+% -------------------------MÃ©todo de Fibonacci-----------------------------
+% UNIVERSIDADE FEDERAL DE CATALÃƒO
 % github.com/souza10v
 % souza10vv@gmail.com
 % -------------------------------------------------------------------------
 
 clear all;  
 clc 
-syms x % declara variável x
+syms x % declara variÃ¡vel x
 figure; 
 hold on;
 k=2;
 
-disp([' Método de Fibonacci ']);
+disp([' MÃ©todo de Fibonacci ']);
 
 a = 0; %intervalo min
 b = 12;  %intervalo max
-e = 0.01; %tolerância
+e = 0.01; %tolerÃ¢ncia
 h = 0.005;
 
 n1=(log(e/b));
 n2=(log(0.618));
-n=n1/n2; %quantidade de iterações
+n=n1/n2; %quantidade de iteraÃ§Ãµes
 
 n = ceil(n); %
 j = n+2;
@@ -49,7 +49,7 @@ z(k)=a(k)+(1-r(k))*(b(k)-a(k));
 fy(k)=f(y(k));
 fz(k)=f(z(k));
 
-disp1 ='\n Iteração %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f';  
+disp1 ='\n IteraÃ§Ã£o %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f';  
 fprintf (disp1,(k-1),(a(k)),(b(k)),(fy(k)),(fz(k)));
  
 while fn(j-1)/fn(j) > fn(2)/fn(3)
@@ -65,7 +65,7 @@ while fn(j-1)/fn(j) > fn(2)/fn(3)
      
         plot(y(k+1),fy(k+1),'rx');
         
-        disp1 ='\n Iteração %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f'; 
+        disp1 ='\n IteraÃ§Ã£o %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f'; 
         fprintf (disp1,(k),(a(k+1)),(b(k+1)),(fy(k+1)),(fz(k+1)));   
     
      else
@@ -80,7 +80,7 @@ while fn(j-1)/fn(j) > fn(2)/fn(3)
      
         plot(z(k+1),fz(k+1),'rx');
         
-        disp1 ='\n Iteração %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f';  
+        disp1 ='\n IteraÃ§Ã£o %.0f = a: %.4f , b: %.4f , fy: %.4f , fz: %4f';  
         fprintf (disp1,(k),(a(k+1)),(b(k+1)),(fy(k+1)),(fz(k+1)));  
 
      end
@@ -92,7 +92,7 @@ end
 
 plot(y(k),fy(k),'ko');
 plot(z(k),fz(k),'ko');
-title('Fibonnaci') %Título
+title('Fibonnaci') %TÃ­tulo
 xlabel('x') %Eixo x
 ylabel('f') %Eixo y
 
@@ -101,8 +101,8 @@ y1 = f(x1);
 plot(x1,y1,'b')
 
 disp([' ']);   
-disp([' Número de iterações: '  num2str(k-1)  ]) ; %exibe número de interações
-disp([' Mínimo da função em : ' num2str(a(k)) ' ; ' num2str(b(k)) ])  ; %exibe o ponto mínimo
-disp([' Valor mínimo : '  num2str(fy(k)) ' ; '  num2str(fz(k)) ]) ;  %exibe o valor da função no ponto mínimo
+disp([' NÃºmero de iteraÃ§Ãµes: '  num2str(k-1)  ]) ; %exibe nÃºmero de interaÃ§Ãµes
+disp([' MÃ­nimo da funÃ§Ã£o em : ' num2str(a(k)) ' ; ' num2str(b(k)) ])  ; %exibe o ponto mÃ­nimo
+disp([' Valor mÃ­nimo : '  num2str(fy(k)) ' ; '  num2str(fz(k)) ]) ;  %exibe o valor da funÃ§Ã£o no ponto mÃ­nimo
 
-%for con até n
+%for con atÃ© n

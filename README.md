@@ -6,7 +6,7 @@
   <li> Método Aproximação Polinomial; </h1>
   <li> Método Busca Aleatória; </li>
   <li> Método de Powell; </li>
-  <li> Método Politopo; </li>
+  <li> Método Politopo; </li> #colocar este
 </ul
   
   

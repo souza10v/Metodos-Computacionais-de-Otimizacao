@@ -1,5 +1,5 @@
 % -------------------------Método de Fibonacci-----------------------------
-% UNIVERSIDADE FEDERAL DE CATALÃO
+% UNIVERSIDADE FEDERAL DE CATALÃO - UFCAT
 % github.com/souza10v
 % souza10vv@gmail.com
 % -------------------------------------------------------------------------

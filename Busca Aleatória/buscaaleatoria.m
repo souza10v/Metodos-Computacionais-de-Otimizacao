@@ -1,16 +1,16 @@
-% -----------------  Método Aproximação Aleatória  ----------------------
-% UNIVERSIDADE FEDERAL DE CATALÃO - UFCAT
+% -----------------  MÃ©todo Busca AleatÃ³ria  ----------------------
+% UNIVERSIDADE FEDERAL DE CATALÃƒO - UFCAT
 % github.com/souza10v
 % souza10vv@gmail.com
 % -------------------------------------------------------------------------
 
 
-clear all;  %limpa variáveis
-clc %limpa antigas execuções
+clear all;  %limpa variÃ¡veis
+clc %limpa antigas execuÃ§Ãµes
 syms x1 x2 X1 X2;
 
 
-disp([' Método Busca Aleatória ']);
+disp([' MÃ©todo Busca AleatÃ³ria ']);
 
 f1= @(X) X(1) - X(2) + 2.*X(1).^2 +2.*X(1).*X(2) +X(2).^2 %[ALTERAR] 
 % f1= @(x)X(1).^2 - 3.*X(1).*X(2) + 4.*X(2)^2 + X(1) -X(2); EXEMPLO
@@ -19,7 +19,7 @@ f1= @(X) X(1) - X(2) + 2.*X(1).^2 +2.*X(1).*X(2) +X(2).^2 %[ALTERAR]
 
 a=-1; %[ALTERAR] CHUTE INICIAL X1
 b=1; %[ALTERAR] CHUTE INICIAL X2
-q=100; %[ALTERAR] ITERAÇÕES
+q=100; %[ALTERAR] ITERAÃ‡Ã•ES
 k=1;
 
 p1(k)=round(a+rand()*(b-a),4);
@@ -65,7 +65,7 @@ hold on;
 contour(X1,X2,real(F),20);
 
 
- title('Busca Aleatória') %Título
+ title('Busca AleatÃ³ria') %TÃ­tulo
  xlabel('x1') %Eixo x
  ylabel('x2') %Eixo y
 

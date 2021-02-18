@@ -5,7 +5,9 @@
   <li> Método de Fibonacci;</li>
   <li> Método Aproximação Polinomial; </h1>
   <li> Método Busca Aleatória; </li>
-  <li> Método de Powell; </li>
+  <li> Método de Powe
+  l; </li>
+  
   <li> Método Politopo; </li> #colocar este
 </ul
   

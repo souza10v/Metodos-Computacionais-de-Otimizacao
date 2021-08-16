@@ -7,7 +7,7 @@
   <li> Método Busca Aleatória; </li>
   <li> Método de Powell; </li>
   
-  <li> Método Politopo; </li> #colocar este
+  <li> Método Politopo; </li> #colocar este continuar
 </ul
   
   

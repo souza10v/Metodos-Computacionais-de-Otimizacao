@@ -1,3 +1,8 @@
+Here is the translated text:
+
+<p> This repository contains computational optimization codes to solve problems implemented in Matlab. </p> <ul> <li> Golden Section Method; </li> <li> Fibonacci Method; </li> <li> Polynomial Approximation Method; </li> <li> Random Search Method; </li> <li> Powell's Method; </li> <li> Polytope Method; </li> </ul>
+
+
 <p> O presente repositório contém códigos de otimização computacional para solucionar problemas implementados em Matlab. </p>
 
 <ul>
